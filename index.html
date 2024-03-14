@@ -4,42 +4,64 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <!-- <link rel="stylesheet" href="./assets/css/reset.css"/> -->
+        <link rel="stylesheet" href="./assets/css/style.css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
         <title>Ricardo's Portfolio</title>
-        <link rel="stylesheet" href=".assets/css/reset.css"/>
-        <link rel="stylesheet" href=".assets/css/style.css"/>
     </head>
     <body>
         <header>
-            <h1>Ricardo</h1>
-            <nav>
-                <ul class="no-bulletpoints">
-                    <li>
-                        <a href="#">About Me</a>
-                    </li>
-                    <li>
-                        <a href="#">Work</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact Me</a>
-                    </li>
-                    <li>
-                        <a href="#">Resume</a>
-                    </li>
-                </ul>
-            </nav>
+            <section class="header">
+                <h1>Ricardo</h1>
+                <nav>
+                    <ul class="nav-items">
+                        <li>
+                            <a href="#">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#">Work</a>
+                        </li>
+                        <li>
+                            <a href="#">Contact Me</a>
+                        </li>
+                        <li>
+                            <a href="#">Resume</a>
+                        </li>
+                    </ul>
+                </nav>
+            </section>
         </header>
+        
 
         <main>
             <section id="about-me">
+                <img src="./Assets/images/profilepic.png">
                 <h2>About Me</h2>
-                <img src="#">
-                <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                    <section class="about-me-description">
+                        <p>
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+                        </p>
+                    </section>
             </section>
             <section id="work">
                 <h2>Work</h2>
                 <section id="list-on-grid">
+                    <ul>
+                        <li>
+                            <!-- <img src="./Assets/images/firstproject.png"/> -->
+                        </li>
+                        <li>
+                            <!-- <img src="./Assets/images/magazine.png"/> -->
+                        </li>
+                        <li>
+                            <!-- <img src="./Assets/images/dentistry.png"/> -->
+                        </li>
+                        <li>
+                            <!-- <img src="./Assets/images/restaurant.png"/> -->
+                        </li>
+                    </ul>
                 </section>
             </section>
         </main>
@@ -48,13 +70,16 @@
             <h2>Contact Me</h2>
             <ul>
                 <li>
-                    <a href=""></a>
+                    <p>555-555-5555</p>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="">(Email)</a>
                 </li>
                 <li>
-                    <a href=""></a>
+                    <a href="">Github</a>
+                </li>
+                <li>
+                    <a href="">LinkedIn</a>
                 </li>
             </ul>
         </footer>

@@ -115,14 +115,14 @@ img{
 }
 
 .magazine {
-    background-image: url('images/magazine.png'); 
+    background-image: url('magazine.png'); 
     background-size: cover; 
     background-position: center; 
     padding: 10%;
 }
 
 .dentistry {
-    background-image: url('images/dentistry.png'); 
+    background-image: url('dentistry.png'); 
     background-size: cover; 
     background-position: center; 
     padding: 10%;

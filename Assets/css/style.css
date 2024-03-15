@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Nunito", sans-serif;
+}
+
+body {
+    background-color: white;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2{
+    font-size: 36px;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+
+
+nav {
+    width: 50%;
+    font-size: 24px;
+    
+}
+
+.nav-items{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#about-me{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* padding: 5%; */
+
+}
+
+#about-me img{
+    width: 100%;
+    height: auto;
+}
+
+#about-me h2{
+    padding-top: 4%;
+}
+
+.about-me-description{
+    padding: 5% 10%;
+}
+
+#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-photos {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstproject {
+    width: 100%;
+    height: auto;
+}
+
+.smaller-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+@media only screen and (max-width: 767px){
+    h1 {
+        font-size: 24px;
+    }
+
+    nav {
+        width: 75%;
+        font-size: 16px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    h1 {
+        font-size: 36px;
+    }
+
+    nav {
+        width: 65%;
+        font-size: 20px;
+    }
+}
+
+/* @media screen and 
+
+@media screen and (max-width: 1024px){
+    h1 {
+        font-size: 36px;
+    }
+
+    nav {
+        width: 65%;
+        font-size: 20px;
+    }
+} */

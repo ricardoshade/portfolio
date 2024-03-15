@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: white;
+    background: white;
 }
 
 h1 {
@@ -26,8 +26,8 @@ h2{
 }
 
 
-
-nav {
+/*Add padding, font-size, and correct display type. */
+.nav {
     width: 50%;
     font-size: 24px;
     
@@ -42,6 +42,7 @@ nav {
 
 ul {
     list-style-type: none;
+    padding-bottom: 4%;
 }
 
 a {
@@ -49,15 +50,27 @@ a {
     color: black;
 }
 
+/*Add black overlay effect when hovering over a link. */
+.link-buttons {
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 5px; 
+    transition: background-color 0.3s;
+}
+
+.link-buttons:hover {
+    background-color: black;
+    color: white;
+}
+
+
 #about-me{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    /* padding: 5%; */
-
 }
-
+/*Make profile picture cover a large part of the top section of the page, set width percentage and padding for section elements*/
 img{
     width: 100%;
     height: auto;
@@ -68,15 +81,76 @@ img{
 }
 
 .about-me-description{
-    padding: 4% 10%;
+    padding: 4% 20%;
 }
 
+#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+/*Add background image to each section. Make image represent each project. Add padding.*/
+#my-work {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 2%;
+}
+
+/*Make first project image bigger then the rest.*/
+.horiseon {
+    background-image: url('../images/firstproject.png'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 18%;
+}
+
+.restaurant {
+    background-image: url('../images/restaurant.png'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10%;
+}
+
+.magazine {
+    background-image: url('../images/magazine.png'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10%;
+}
+
+.dentistry {
+    background-image: url('../images/dentistry.png'); 
+    background-size: cover; 
+    background-position: center; 
+    padding: 10%;
+}
+
+#contact-me {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+}
+
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 1%;
+}
+
+/*Add media queries for two different screen sizes. (Code above will accomodate largest screen sizes. Third media query option unnecessary*/
 @media only screen and (max-width: 767px){
     h1 {
         font-size: 24px;
     }
 
-    nav {
+    .nav {
         width: 75%;
         font-size: 16px;
     }
@@ -92,7 +166,7 @@ img{
         font-size: 36px;
     }
 
-    nav {
+    .nav {
         width: 65%;
         font-size: 20px;
     }

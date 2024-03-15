@@ -67,6 +67,30 @@ a {
     padding: 5% 10%;
 }
 
+#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#work-photos {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstproject {
+    width: 100%;
+    height: auto;
+}
+
+.smaller-three {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
 @media only screen and (max-width: 767px){
     h1 {
         font-size: 24px;

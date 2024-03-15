@@ -71,40 +71,6 @@ img{
     padding: 4% 10%;
 }
 
-#work {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#work h2 {
-    padding-bottom: 2%;
-}
-
-#list-on-grid {
-    display: flex;
-    flex-direction: row;
-}
-
-.firstproject {
-    background-image: url("../images/firstproject.png");
-
-}
-
-.restaurant {
-
-}
-
-.dentirstry {
-
-}
-
-.magazine { 
-}
-
-
-
 @media only screen and (max-width: 767px){
     h1 {
         font-size: 24px;

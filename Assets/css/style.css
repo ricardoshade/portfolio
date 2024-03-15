@@ -40,6 +40,10 @@ nav {
     padding: 1%;
 }
 
+ul {
+    list-style-type: none;
+}
+
 a {
     text-decoration: none;
     color: black;
@@ -54,7 +58,7 @@ a {
 
 }
 
-#about-me img{
+img{
     width: 100%;
     height: auto;
 }
@@ -64,8 +68,42 @@ a {
 }
 
 .about-me-description{
-    padding: 5% 10%;
+    padding: 4% 10%;
 }
+
+#work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#work h2 {
+    padding-bottom: 2%;
+}
+
+#list-on-grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstproject {
+    background-image: url("../images/firstproject.png");
+
+}
+
+.restaurant {
+
+}
+
+.dentirstry {
+
+}
+
+.magazine { 
+}
+
+
 
 @media only screen and (max-width: 767px){
     h1 {
@@ -76,6 +114,11 @@ a {
         width: 75%;
         font-size: 16px;
     }
+
+    h2 {
+        font-size: 24px;
+    }
+    
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
@@ -89,15 +132,3 @@ a {
     }
 }
 
-/* @media screen and 
-
-@media screen and (max-width: 1024px){
-    h1 {
-        font-size: 36px;
-    }
-
-    nav {
-        width: 65%;
-        font-size: 20px;
-    }
-} */
